@@ -1,0 +1,14 @@
+Images:
+Image 1: Boxplot between sqft_above and price.
+Image 2: Regplot between sqft_above and price.
+Image 3: Correlations between price and the other features.
+
+Regression Results:
+Simple Regression: Using the feature long, the model fails to explain price in a meaningful way, with an R² of only 0.0005. 
+                   However, using sqft_living, the model achieves an R² of 0.493, indicating that sqft_living explains approximately 49.3% of the price variability.
+Multiple Regression: the model improves to an R² of 0.658, meaning that about 65.8% of the price variability can be explained by these variables.
+Pipeline with scaled and polynomial features: the model significantly improves, achieving an R² of 0.751, indicating a considerable boost in price prediction accuracy compared to the previous model.
+Ridge Regression: the model achieves an R² of 0.648 on the test set, demonstrating improved generalization compared to the simple linear regression model.
+Second-order Polynomial Regression: By adding second-degree polynomial features, the Ridge model further improves its performance, achieving an R² of 0.700 on the test set. This suggests that adding quadratic terms enhances the model's ability to capture non-linear relationships between the features and price. 
+
+These conclusions show how the model's predictive power increased as more features and modeling techniques, such as pipelines, Ridge regression, and polynomial regression, were introduced. Let me know if you need further details or adjustments!
