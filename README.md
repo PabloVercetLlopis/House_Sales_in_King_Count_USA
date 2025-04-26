@@ -1,35 +1,33 @@
-# Análisis de Precios de Viviendas en Seattle
+# Housing Price Analysis in Seattle
 
-Este proyecto se centra en el análisis exploratorio de datos (EDA) y la creación de modelos predictivos para estimar los precios de viviendas en Seattle utilizando un conjunto de datos sobre propiedades inmobiliarias. El análisis se realiza utilizando herramientas de Python como Pandas, Matplotlib, Seaborn, y Scikit-learn.
+This project focuses on exploratory data analysis (EDA) and the creation of predictive models to estimate housing prices in Seattle using a real estate dataset. The analysis is conducted using Python tools such as Pandas, Matplotlib, Seaborn, and Scikit-learn.
 
-## Descripción del Proyecto
+## Project description
 
-En este proyecto, se analiza un conjunto de datos que contiene información sobre varias propiedades en Seattle, con variables como el número de habitaciones, baños, metros cuadrados de la vivienda, y características adicionales como si tiene vista al agua. El objetivo es explorar cómo las diferentes características de las viviendas afectan su precio y construir un modelo para predecir el precio basado en estas características.
+In this project, a dataset containing information about various properties in Seattle is analyzed, with variables such as the number of rooms, bathrooms, square footage, and additional features like whether the property has a waterfront view. The objective is to explore how different housing characteristics affect their price and to build a model to predict the price based on these features.
 
-## Estructura del Proyecto
+## Project structure
 
-El proyecto incluye los siguientes pasos:
+The project includes the following steps:
 
-1. **Importación de librerías**: Importación de bibliotecas esenciales como Pandas, NumPy, Matplotlib, Seaborn, y Scikit-learn.
-2. **Carga de datos**: El dataset se carga desde un archivo CSV remoto.
-3. **Exploración de los datos**: Análisis descriptivo de las columnas y la revisión de valores nulos.
-4. **Limpieza de datos**: Manejo de valores faltantes, eliminación de columnas innecesarias y corrección de tipos de datos.
-5. **Análisis exploratorio**: Análisis visual de la distribución de variables y su relación con el precio de las viviendas.
-6. **Modelado**: Aplicación de un modelo de regresión lineal para predecir el precio de las viviendas.
-7. **Evaluación**: Evaluación del modelo y visualización de resultados.
+1. **Library Import**: Importing essential libraries such as Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn.
+2. **Data Loading**: The dataset is loaded from a remote CSV file.
+3. **Data Exploration**: Descriptive analysis of the columns and review of null values.
+4. **Data Cleaning**: Handling missing values, removing unnecessary columns, and correcting data types.
+5. **Exploratory Analysis**: Visual analysis of variable distributions and their relationship with housing prices.
+6. **Modeling**: Applying a linear regression model to predict housing prices.
+7. **Evaluation**: Model evaluation and result visualization.
 
-## Tecnologías Usadas
+## Technologies Used
 
-- **Python**: Lenguaje de programación principal.
-- **Pandas**: Manipulación y análisis de datos.
-- **Matplotlib**: Visualización de datos.
-- **Seaborn**: Gráficos estadísticos.
-- **Scikit-learn**: Modelado de Machine Learning.
+**Python**: Primary programming language.
+**Pandas**: Data manipulation and analysis.
+**Matplotlib**: Data visualization.
+**Seaborn**: Statistical graphics.
+**Scikit-learn**: Machine learning modeling.
 
-## Instalación
+## Installation
+To run this project on your local machine, follow these steps:
+Clone this repository:
+git clone https://github.com/your_username/housing-price-analysis.git
 
-Para ejecutar este proyecto en tu máquina local, sigue los siguientes pasos:
-
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tu_usuario/analisis-precios-viviendas.git
